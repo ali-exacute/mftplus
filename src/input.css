@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+    	font-family: 'IranianSansBold';
+    	src: url('../fonts/IranianSansBold.ttf') format('truetype');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+
+    @font-face {
+    	font-family: 'IranianSans';
+    	src: url('../fonts/IranianSansRegular.ttf') format('truetype'),
+    		 url('../fonts/IRANSans-web.woff') format('woff');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+
+    html{
+        font-family: 'IranianSans';
+		letter-spacing: -0.05rem;
+    }
+}
